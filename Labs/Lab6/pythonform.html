@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Main Page</title>
+	<meta name="description" content="Button Test">
+	<link rel="stylesheet" href="lab6.css">
+	<script src="https://code.jquery.com/jquery-3.5.0.js"/></script>
+	
+</head>
+<body>
+
+<script>
+setTimeout(function(){makevisible("div1");}, 1000);
+setTimeout(function(){makevisible("div2")}, 2000);
+setTimeout(function(){makevisible("div3")}, 3000);
+function makevisible(divID){
+
+$("#" + "divID").css("display","inline");
+}
+function validatePhone(txtPhone) {
+		var filter = /^\d{3}\-\d{3}\-\d{4}$/;
+		if (filter.test(txtPhone)) {
+		return true;
+		}
+		else {
+			return false;
+		}
+}
+$(document).ready(function() {
+$("#btnsubmit").on("click",
+	(function(e) {
+		var phoneNumber = $('#myform').find('input[name="phone"]').val();
+		var isValid = validatePhone(phoneNumber);
+		if (isValid === false)
+		{
+			e.preventDefault();
+			alert("Phone number is invalid");
+		}
+		
+		}));
+	});
+</script>
+<div style="display:none; background-color:red" id="div1"> Hey </div>
+<div style="display:none; background-color:violet" id="div2"> This is Lab Assignment </div>
+<div style="display:none; background-color:green" id="div3"> 6 </div>
+
+<form id="myform" action="cgi-bin/rubyform.cgi" method="post">
+	Enter your first name and last name<br/><br />
+		<input type="text" name="firstname"
+		value=""/><br/><br />
+		<input type="text" name="lastname"
+		value=""/><br/><br />
+		<input type="text" name="phone"
+		value=""/><br/><br />
+		<input value="Submit" id="btnsubmit" type="submit">
+</form>
+<br/>
+
+</body>
+</html>
+		

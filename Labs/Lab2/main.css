@@ -1,0 +1,28 @@
+.image
+{
+border: 3px solid blue;
+}
+img
+{
+	width: 500px;
+	height: 300px;
+	clip-path: circle(400px at center);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+body {
+  background-color: khaki;
+}
+.ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+table, td, tr, th
+{
+	height: auto;
+	border: 2px solid green;
+} 

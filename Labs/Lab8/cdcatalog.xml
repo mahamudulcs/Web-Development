@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cd.xsl"?>
+<catalog>
+3	  <cd>
+4	    <title>Empire Burlesque</title>
+5	    <artist>Bob Dylan</artist>
+6	    <country>USA</country>
+7	    <company>Columbia</company>
+8	    <price>10.90</price>
+9	    <year>1985</year>
+10	  </cd>
+11	  <cd>
+12	    <title>Hide your heart</title>
+13	    <artist>Bonnie Tylor</artist>
+14	    <country>UK</country>
+15	    <company>CBS Records</company>
+16	    <price>9.90</price>
+17	    <year>1988</year>
+18	  </cd>
+19	  <cd>
+20	    <title>Greatest Hits</title>
+21	    <artist>Dolly Parton</artist>
+22	    <country>USA</country>
+23	    <company>RCA</company>
+24	    <price>9.90</price>
+25	    <year>1982</year>
+26	  </cd>
+27	  <cd>
+28	    <title>Still got the blues</title>
+29	    <artist>Gary More</artist>
+30	    <country>UK</country>
+31	    <company>Virgin redords</company>
+32	    <price>10.20</price>
+33	    <year>1990</year>
+34	  </cd>
+35	  <cd>
+36	    <title>Eros</title>
+37	    <artist>Eros Ramazzotti</artist>
+38	    <country>EU</country>
+39	    <company>BMG</company>
+40	    <price>9.90</price>
+41	    <year>1997</year>
+42	  </cd>
+43	  <cd>
+44	    <title>One night only</title>
+45	    <artist>Bee Gees</artist>
+46	    <country>UK</country>
+47	    <company>Polydor</company>
+48	    <price>10.90</price>
+49	    <year>1998</year>
+50	  </cd>
+51	  <cd>
+52	    <title>Sylvias Mother</title>
+53	    <artist>Dr.Hook</artist>
+54	    <country>UK</country>
+55	    <company>CBS</company>
+56	    <price>8.10</price>
+57	    <year>1973</year>
+58	  </cd>
+59	  <cd>
+60	    <title>Maggie May</title>
+61	    <artist>Rod Stewart</artist>
+62	    <country>UK</country>
+63	    <company>Pickwick</company>
+64	    <price>8.50</price>
+65	    <year>1990</year>
+66	  </CD>
+67	  <CD>
+68	    <title>Romanza</title>
+69	    <artist>Andrea Bocelli</artist>
+70	    <country>EU</country>
+71	    <company>Polydor</company>
+72	    <price>10.80</price>
+73	    <year>1996</year>
+74	  </CD>
+75	  <CD>
+76	    <title>When a man loves a woman</title>
+77	    <artist>Percy Sledge</artist>
+78	    <country>USA</country>
+79	    <company>Atlantic</company>
+80	    <price>8.70</price>
+81	    <year>1987</year>
+82	  </cd>
+83	  <cd>
+84	    <title>Black angel</title>
+85	    <artist>Savage Rose</artist>
+86	    <country>EU</country>
+87	    <company>Mega</company>
+88	    <price>10.90</price>
+89	    <year>1995</year>
+90	  </cd>
+91	  <cd>
+92	    <title>1999 Grammy Nominees</title>
+93	    <artist>Many</artist>
+94	    <country>USA</country>
+95	    <company>Grammy</company>
+96	    <price>10.20</price>
+97	    <year>1999</year>
+98	  </cd>
+99	  <cd>
+100	    <title>For the good times</title>
+101	    <artist>Kenny Rogers</artist>
+102	    <country>UK</country>
+103	    <company>Mucik Master</company>
+104	    <price>8.70</price>
+105	    <year>1995</year>
+106	  </cd>
+107	  <cd>
+108	    <title>Big Willie style</title>
+109	    <artist>Will Smith</artist>
+110	    <country>USA</country>
+111	    <company>Columbia</company>
+112	    <price>9.90</price>
+113	    <year>1997</year>
+114	  </cd>
+115	  <cd>
+116	    <title>Tupelo Honey</title>
+117	    <artist>Van Morrison</artist>
+118	    <country>UK</country>
+119	    <company>Polydor</company>
+120	    <price>8.20</price>
+121	    <year>1971</year>
+122	  </cd>
+123	  <cd>
+124	    <title>Soulsville</title>
+125	    <artist>Jorn Hoel</artist>
+126	    <country>Norway</country>
+127	    <company>WEA</company>
+128	    <price>7.90</price>
+129	    <year>1996</year>
+130	  </cd>
+131	  <cd>
+132	    <title>The very best of</title>
+133	    <artist>Cat Stevens</artist>
+134	    <country>UK</country>
+135	    <company>Island</company>
+136	    <price>8.90</price>
+137	    <year>1990</year>
+138	  </cd>
+139	  <cd>
+140	    <title>Stop</title>
+141	    <artist>Sam Brown</artist>
+142	    <country>UK</country>
+143	    <company>A and M</company>
+144	    <price>8.90</price>
+145	    <year>1988</year>
+146	  </cd>
+147	  <cd>
+148	    <title>Bridge of Spies</title>
+149	    <artist>T`Pau</artist>
+150	    <country>UK</country>
+151	    <company>Siren</company>
+152	    <price>7.90</price>
+153	    <year>1987</year>
+154	  </cd>
+155	  <cd>
+156	    <title>Private Dancer</title>
+157	    <artist>Tina Turner</artist>
+158	    <country>UK</country>
+159	    <company>Capitol</company>
+160	    <price>8.90</price>
+161	    <year>1983</year>
+162	  </cd>
+163	  <cd>
+164	    <title>Midt om natten</title>
+165	    <artist>Kim Larsen</artist>
+166	    <country>EU</country>
+167	    <company>Medley</company>
+168	    <price>7.80</price>
+169	    <year>1983</year>
+170	  </cd>
+171	  <cd>
+172	    <title>Pavarotti Gala Concert</title>
+173	    <artist>Luciano Pavarotti</artist>
+174	    <country>UK</country>
+175	    <company>DECCA</company>
+176	    <price>9.90</price>
+177	    <year>1991</year>
+178	  </cd>
+179	  <cd>
+180	    <title>The dock of the bay</title>
+181	    <artist>Otis Redding</artist>
+182	    <country>USA</country>
+183	    <company>Atlantic</company>
+184	    <price>7.90</price>
+185	    <year>1987</year>
+186	  </cd>
+187	  <cd>
+188	    <title>Picture book</title>
+189	    <artist>Simply Red</artist>
+190	    <country>EU</country>
+191	    <company>Elektra</company>
+192	    <price>7.20</price>
+193	    <year>1985</year>
+194	  </cd>
+195	  <cd>
+196	    <title>Red</title>
+197	    <artist>The Communards</artist>
+198	    <country>UK</country>
+199	    <company>London</company>
+200	    <price>7.80</price>
+201	    <year>1987</year>
+202	  </cd>
+203	  <cd>
+204	    <title>Unchain my heart</title>
+205	    <artist>Joe Cocker</artist>
+206	    <country>USA</country>
+207	    <company>EMI</company>
+208	    <price>8.20</price>
+209	    <year>1987</year>
+210	  </cd>
+211	</catalog>   

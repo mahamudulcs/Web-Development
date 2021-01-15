@@ -1,0 +1,30 @@
+#eyes {
+	background-image:url('mrpotatohead/eyes.png');
+	height:100px;
+	width:100px;
+	z-index:3;
+}
+#nose {
+	background-image:url('mrpotatohead/nose.png');
+	height:100px;
+	width:100px;
+	z-index:2;
+}
+#ears {
+	background-image:url('mrpotatohead/ears.png');
+	height:200px;
+	width:300px;
+	z-index:1;
+}
+#hat {
+	background-image:url('mrpotatohead/hat.png');
+	height:150px;
+	width:200px;
+	z-index:5;
+}
+.basicSettings{
+	background-repeat:no-repeat;
+	position:absolute;
+	background-position:center;
+	background-size: contain;
+}

@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .image {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        $('document').ready(function() {
+
+            $("#getImage").click(function() {
+
+                var cityName = $("#cityName").val();
+                GetImageUrl(cityName);
+            });
+        });
+
+
+        function GetImageUrl(cityName) {
+		
+            $.getJSON("getImageUrl.php?city=" + cityName, function(data) {
+			   $("#gallery").empty();
+               $.each(data, function(key,value) {
+					var url = value;
+					$("#gallery").append('<img src="' + url + '" class="image"/>');
+				}); 
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Type the city name to see it's image</h1>
+    <br>
+    <input type="text" id="cityName" value="toronto" />
+    <br>
+    <input type="button" id="getImage" value="Get Image" />
+    <br>
+	<div id="gallery"></div>
+</body>
+
+</html>
